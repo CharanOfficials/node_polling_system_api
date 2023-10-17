@@ -1,14 +1,24 @@
-# node_polling_system_api
-
-# API Documentation with Postman
+# Node Polling System Api
 
 This GitHub document provides comprehensive API documentation for the "Polling System" MERN application. The documentation is based on the Postman collection available at the following link:
 
 [Postman Collection - Polling System](https://www.postman.com/cloudy-desert-650536/workspace/polling-system/collection/28739455-6918428d-8a28-4b20-a3ca-660ba2bc79d2?action=share&creator=28739455)
 
-## Overview
+## Introduction
 - This Postman collection contains a set of well-structured API requests and examples for the Polling System.
 - It covers all essential API endpoints, methods, and data parameters used in the MERN application.
+
+# **Prerequisites**
+- Node.js
+- MongoDB
+
+# **Installation**
+
+To install the project, you can use npm with the following command:
+
+1. **Clone the repository:** `git clone https://github.com/CharanOfficials/node_polling_system_api/`
+2. **Install dependencies:** `npm install`
+3. **Start Server:** `npm start`
 
 ### Functionality Overview
 The Postman collection covers a wide range of functionalities for the "Polling System" API, enabling you to manage polls effectively. These functionalities include:
