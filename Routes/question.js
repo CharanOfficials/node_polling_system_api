@@ -14,5 +14,7 @@ router.delete('/:id/delete', DeleteQuestionController.delete_Question)
 router.put('/:id/options/create', AddOptionController.addOption)
 // To view data using question id
 router.get('/:id', ViewDataController.viewData)
-
+router.use('/', (req, res) => {
+    res.status(404).json({success:false, message:"Invald Requested URL"})
+})
 export default router

@@ -11,4 +11,7 @@ router.delete('/:id/delete', DeleteOptionController.deleteOption)
 router.get('/:id/add_vote', AddVoteController.addVote)
 // To remove vote using option id
 router.delete('/:id/remove_vote', RemoveVoteController.removeVote)
+router.use('/', (req, res) => {
+    res.status(404).json({success:false, message:"Invald Requested URL"})
+})
 export default router

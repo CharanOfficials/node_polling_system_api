@@ -10,6 +10,6 @@ const router = express.Router()
 router.use('/questions', question)
 router.use('/options', option)
 router.use('/', (req, res) => {
-    res.status(404).json({error:"Invalid Path URL"})
+    res.status(200).json({success:true, message:"Welcome home"})
 })
 export default router
